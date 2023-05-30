@@ -58,6 +58,11 @@ header {
     color: var(--cor-branco);
 }
 
+#botao__header:hover {
+    background-color: var(--cor-laranja-claro);
+    transition: 0.5s;
+}
+
 .div__primeiro {
     display: flex;
     flex-direction: column;
@@ -117,6 +122,11 @@ header {
     background-color: var(--cor-laranja);
     border-radius: 15px;
     color: var(--cor-branco);
+}
+
+.conteudo__primeiro a:hover {
+    background-color: var(--cor-laranja-claro);
+    transition: 0.5s;
 }
 
 .div__segundo {
@@ -189,6 +199,11 @@ header {
     background-color: var(--cor-azul);
     color: var(--cor-branco);
     border-radius: 15px;
+}
+
+#botao__segundo a:hover {
+    background-color: var(--cor--azul-claro);
+    transition: 0.5s;
 }
 
 .div__terceiro {
@@ -313,6 +328,11 @@ header {
     border-radius: 15px;
     padding: 10px 30px;
     color: var(--cor-branco);
+}
+
+#botao__quarto a:hover {
+    background-color: var(--cor--azul-claro);
+    transition: 0.5s;
 }
 
 .div__quinto {
