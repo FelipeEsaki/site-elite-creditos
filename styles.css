@@ -513,7 +513,7 @@ footer ul {
         padding: 5px 0;
         display: flex;
         list-style-type: none;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: var(--cor-cinza-claro);
     }
 
@@ -526,12 +526,6 @@ footer ul {
         font-weight: 500;
         font-size: 1rem;
         color: var(--cor-cinza-escuro);
-    }
-
-    .traco {
-        padding-left: 8px;
-        padding-right: 15px;
-        border-right: 1px solid var(--cor-cinza-escuro);
     }
 
     #botao__header {
