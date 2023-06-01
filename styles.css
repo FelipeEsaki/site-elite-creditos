@@ -509,22 +509,29 @@ footer ul {
 
     .menu__header {
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
         padding: 5px 0;
         display: flex;
         list-style-type: none;
-        justify-content: space-evenly;
+        justify-content: space-between;
         background-color: var(--cor-cinza-claro);
     }
 
     .menu__header a {
+        margin: 0 5px;
         margin-bottom: 5px;
         text-decoration: none;
         text-transform: uppercase;
         font-family: var(--fonte-poppins);
-        font-weight: bold;
+        font-weight: 500;
         font-size: 1rem;
         color: var(--cor-cinza-escuro);
+    }
+
+    .traco {
+        padding-left: 5px;
+        padding-right: 15px;
+        border-right: 1px solid var(--cor-cinza-escuro);
     }
 
     #botao__header {
