@@ -561,13 +561,13 @@ footer ul {
     }
 
     .conteudo__primeiro h1 {
-        margin: 10px 0;
-        max-width: 80%;
+        margin: 15px 10px;
+        max-width: 100%;
         text-align: center;
         text-transform: uppercase;
         font-family: var(--fonte-poppins);
         font-weight: bold;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         color: var(--cor-branco);
     }
 
