@@ -903,6 +903,14 @@ footer ul {
     .conteudo__footer {
         margin: 20px;
     }
+
+    .contato p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
     
     footer h3 {
         margin: 20px;
