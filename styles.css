@@ -504,7 +504,7 @@ footer ul {
     .menu__header {
         width: 100%;
         margin: 0;
-        padding: 5px;
+        padding: 5px 0;
         display: flex;
         list-style-type: none;
         justify-content: space-evenly;
