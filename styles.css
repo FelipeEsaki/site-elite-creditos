@@ -668,7 +668,7 @@ footer ul {
     }
 
     .div__terceiro h1 {
-        width: 100%;
+        width: 90%;
         margin: 30px;
         text-transform: uppercase;
         text-align: center;
@@ -784,10 +784,10 @@ footer ul {
         text-transform: uppercase;
         font-family: var(--fonte-poppins);
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         background-color: var(--cor-azul);
         border-radius: 15px;
-        padding: 10px 30px;
+        padding: 10px 20px;
         color: var(--cor-branco);
     }
 
@@ -876,13 +876,17 @@ footer ul {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: #11213a;
     }
 
     #logo__footer {
         width: 250px;
+    }
+
+    .conteudo__footer {
+        margin: 20px;
     }
     
     footer h3 {
