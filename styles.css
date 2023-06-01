@@ -257,20 +257,27 @@ header {
     color: var(--cor-cinza);
 }
 
-.div__terceiro p {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 90%;
-    text-align: center;
-    font-family: var(--fonte-poppins);
-    font-weight: 300;
-    font-size: 1.5rem;
+.caixa__conteudo__terceiro {
+    margin: 20px 20px;
     border: 2px solid;
     color: var(--cor-cinza-escuro);
 }
 
-#span__franquia__terceiro {
+.caixa__conteudo__terceiro h1 {
+    margin: 10px auto;
+    text-align: center;
     font-size: 3rem;
+    color: var(--cor-cinza-escuro);
+}
+
+.caixa__conteudo__terceiro p {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+    text-align: justify;
+    font-family: var(--fonte-poppins);
+    font-weight: 300;
+    font-size: 1.5rem;
     color: var(--cor-cinza-escuro);
 }
 
@@ -540,6 +547,7 @@ footer ul {
         justify-content: center;
         align-items: center;
         background-image:url(img/fundo.png);
+        height: 450px;
     }
 
     .conteudo__primeiro {
@@ -549,17 +557,17 @@ footer ul {
         flex-direction: column;
         align-items: center;
         position: relative;
-        gap: 20px;
+        gap: 60px;
     }
 
     .conteudo__primeiro h1 {
         margin: 10px 0;
-        max-width: 90%;
+        max-width: 80%;
         text-align: center;
         text-transform: uppercase;
         font-family: var(--fonte-poppins);
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: var(--cor-branco);
     }
 
@@ -592,7 +600,7 @@ footer ul {
     }
 
     .div__segundo h1 {
-        margin: 10px auto;
+        margin: 60px auto;
         text-transform: uppercase;
         text-align: center;
         font-family: var(--fonte-poppins);
@@ -639,7 +647,7 @@ footer ul {
     }
 
     #botao__segundo a {
-        margin-bottom: 10px;
+        margin: 30px;
         padding: 10px 50px;
         text-decoration: none;
         text-transform: uppercase;
@@ -661,8 +669,7 @@ footer ul {
 
     .div__terceiro h1 {
         width: 100%;
-        margin: 0;
-        margin-top: 10px;
+        margin: 30px;
         text-transform: uppercase;
         text-align: center;
         font-family: var(--fonte-poppins);
@@ -697,15 +704,28 @@ footer ul {
         color: var(--cor-cinza);
     }
 
-    .div__terceiro p {
-        margin: 15px 0;
-        width: 90%;
-        text-align: center;
-        font-family: var(--fonte-poppins);
-        font-weight: 300;
-        font-size: 1.3rem;
+    .caixa__conteudo__terceiro {
+        align-items: center;
+        margin: 20px;
         border: 2px solid;
         color: var(--cor-cinza-escuro);
+    }
+
+    .caixa__conteudo__terceiro h1 {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1.7rem;
+        color: var(--cor-cinza-escuro);
+    }
+
+    .caixa__conteudo__terceiro p {
+        margin: 0 auto;
+        padding: 10px;
+        width: 85%;
+        text-align: justify;
+        font-size: 1.3rem;
+        font-family: var(--fonte-poppins);
+        font-weight: 300;
     }
 
     #span__franquia__terceiro {
@@ -715,7 +735,6 @@ footer ul {
 
     .div__quarto {
         width: 100%;
-        margin-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -723,7 +742,7 @@ footer ul {
 
     .div__quarto h1 {
         width: 100%;
-        margin: 0;
+        margin: 30px;
         text-align: center;
         text-transform: uppercase;
         font-family: var(--fonte-poppins);
@@ -734,6 +753,7 @@ footer ul {
 
     .div__quarto p {
         margin: 0 20px;
+        margin-bottom: 30px;
         text-align: center;
         font-family: var(--fonte-poppins);
         font-weight: 300;
@@ -755,6 +775,10 @@ footer ul {
         width: 60px;
     }
 
+    #botao__quarto {
+        margin: 50px;
+    }
+
     #botao__quarto a {
         text-decoration: none;
         text-transform: uppercase;
@@ -770,7 +794,7 @@ footer ul {
     .div__quinto h1 {
         width: 90%;
         margin: 0 auto;
-        padding: 0;
+        padding: 20px 0;
         text-transform: uppercase;
         text-align: center;
         font-family: var(--fonte-poppins);
@@ -782,6 +806,7 @@ footer ul {
     .conteudo__geral__quinto {
         margin: 0 auto;
         padding: 0;
+        padding-bottom: 30px;
         max-width: 100%;
         display: flex;
         justify-content: center;
